@@ -1,43 +1,85 @@
-# # 🍣 Sushi Sensei | Premium Japanese Dining Experience
+# 🍣 Sushi Restaurant — Authentic Japanese Flavors
 
-A visually stunning, high-performance landing page for an upscale Sushi restaurant. This project focuses on modern **UI/UX principles**, seamless animations, and a mobile-first responsive architecture.
-This project is part of a step-by-step YouTube tutorial in which we build a responsive sushi website from scratch using HTML, CSS and JavaScript.
+A modern, fully responsive landing page for a Japanese sushi restaurant, built with **HTML5, CSS3, and Vanilla JavaScript**. The design blends clean layout with Japanese-inspired typography and imagery, featuring an interactive tabbed menu, smooth scroll-reveal animations, and a newsletter/contact section.
 
-## 📌 Project Features
-- Fully responsive sushi website (Mobile First Methodology).
-- Clear and semantic HTML structure.
-- Use of CSS variables and modern JavaScript functions.
-- Smooth scrolling between sections.
-- Scroll animations.
-- Compatible with all modern browsers and devices.
+## 📖 Overview
 
-![License](https://img.shields.io/badge/license-MIT-red.svg)
-![Frontend](https://img.shields.io/badge/Frontend-HTML5%20%7C%20CSS3%20%7C%20JS-orange)
-![Responsive](https://img.shields.io/badge/Responsive-Yes-brightgreen)
+This project is a single-page marketing site for a fictional sushi restaurant, showcasing dishes such as Sushi, Nigiri, Ramen, Udon, and more through an interactive Swiper-powered menu carousel, along with scroll-based animations across every section.
 
----
+## ✨ Features
 
-## ✨ Key Features
+- **Responsive Design** — adapts smoothly across mobile, tablet, and desktop screens
+- **Animated Mobile Navigation** — slide-in menu with open/close toggle
+- **Sticky Header** — background style changes on scroll
+- **Interactive Menu Tabs** — powered by [Swiper.js](https://swiperjs.com/), synced thumbnail tabs and content slider
+- **Scroll Reveal Animations** — sections and elements animate into view using [ScrollReveal.js](https://scrollrevealjs.org/)
+- **Active Link Highlighting** — nav links highlight automatically based on the section in view
+- **Scroll-to-Top Button** — appears after scrolling past a set point
+- **Social & Contact Links** — Messenger, WhatsApp, and Email quick-contact icons
+- **Newsletter Subscription Form**
+- **Icon Library** — powered by [Remix Icon](https://remixicon.com/)
 
-* **🎨 Sophisticated Design:** Uses a warm, authentic Japanese color palette with a clean, minimalist layout.
-* **📱 Fully Responsive:** Optimized for everything from small mobile screens (320px) to large desktops.
-* **🎭 Smooth Animations:** Powered by **ScrollReveal JS** for elegant element entries as you scroll.
-* **🍱 Interactive Menu:** A touch-ready, swipeable food menu integrated with **Swiper JS**.
-* **🌗 Glassmorphism UI:** Modern sticky header with blur effects and floating decorative elements.
-* **🚀 SEO Friendly:** Built with semantic HTML5 tags for better search engine indexing.
+## 🗂️ Sections
 
----
+| Section | Description |
+|---|---|
+| Home | Hero banner with call-to-action and Japanese-style typography |
+| About Us | Restaurant story and background |
+| Menu | Tabbed, swipeable menu (Sushi, Nigiri, Ramen, Udon, Others) with prices and availability |
+| Special | Highlighted signature dish (Sashimi) |
+| Contact | Messages, location, phone, working hours, and newsletter form |
+| Footer | Logo, social links, and copyright |
 
-## 🛠️ Tech Stack
+## 🛠️ Built With
 
-- **Core:** HTML5, CSS3 (Custom Variables, Flexbox, Grid), JavaScript (ES6+).
-- **Libraries:**
-  - [ScrollReveal](https://scrollrevealjs.org/) (Animations)
-  - [Swiper JS](https://swiperjs.com/) (Slider/Menu)
-  - [Remix Icons](https://remixicon.com/) (Iconography)
-  - [Google Fonts](https://fonts.google.com/) (Lora & Montserrat)tps://github.com/bedimcode/responsive-sushi-website-2.git
+- **HTML5** — semantic markup
+- **CSS3** — custom properties, Flexbox & Grid layout
+- **JavaScript (Vanilla)** — DOM events, scroll listeners, class toggling
+- **[Swiper.js](https://swiperjs.com/)** — menu tabs and content carousel
+- **[ScrollReveal.js](https://scrollrevealjs.org/)** — scroll-based animations
+- **[Remix Icon](https://remixicon.com/)** — icon set
+
+## 📁 Project Structure
+
+```
+├── index.html          # Main HTML file
+├── assets/
+│   ├── css/
+│   │   └── styles.css  # Stylesheet
+│   ├── js/
+│   │   └── main.js     # JavaScript logic
+│   └── img/             # Images and icons
+└── README.md
 ```
 
-Designed & developed with ❤️ by **[Bedimcode](https://www.youtube.com/@Bedimcode)**
+## 🚀 Getting Started
 
-![preview img](/preview.png)
+No build tools or dependencies required — this is a static site.
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/<your-username>/<repo-name>.git
+   ```
+2. **Navigate into the project folder**
+   ```bash
+   cd <repo-name>
+   ```
+3. **Open `index.html`** in your browser, or serve it locally with a tool like [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
+
+## 📝 Customization
+
+- Update contact details, phone numbers, and the WhatsApp/Messenger links in `index.html`
+- Replace menu items, prices, and images in `assets/img/` to match your brand
+- Adjust colors, fonts, and spacing in `assets/css/styles.css`
+
+## 📌 Notes
+
+- This project's base template/design is credited to **Bedimcode**; content and assets in this version have been customized.
+
+## 📄 License
+
+This project is open source and available for learning and personal portfolio use.
+
+---
+
+Made with ❤️ by Mohamed
