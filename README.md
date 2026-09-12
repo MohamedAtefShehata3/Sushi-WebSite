@@ -58,11 +58,11 @@ No build tools or dependencies required — this is a static site.
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/<your-username>/<repo-name>.git
+   git clone https://github.com/<MohamedAtefShehata3>/<Sushi Restaurant>.git
    ```
 2. **Navigate into the project folder**
    ```bash
-   cd <repo-name>
+   cd <Sushi Restaurant>
    ```
 3. **Open `index.html`** in your browser, or serve it locally with a tool like [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
